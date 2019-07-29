@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{ 
+    position: fixed;
+    top: 0;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    z-index: 1;
+}
+
+#frame{
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#canvas{
+    background-color: rgb(7, 13, 13);
+    position: relative;
+    width: 70vmin;
+    height: 70vmin;
+}
+
+#top-row{
+    position: absolute;
+    width: 70vmin;
+    height: 54vmin;
+}
+
+#bottom-row{
+    position: absolute;
+    width: 70vmin;
+    height: 14vmin;
+    top: 54vmin;
+}
+
+#white-top{
+    background-color: rgb(211, 207, 205);
+    position: absolute;
+    width: 14vmin;
+    height: 22vmin;
+}
+
+#white-bottom{
+    background-color: rgb(211, 207, 205);
+    position: absolute;
+    width: 14vmin;
+    height: 26vmin;
+    top: 26vmin;
+}
+
+#big-red{
+    background-color: rgb(208, 38, 17);
+    position: absolute;
+    width: 54vmin;
+    height: 52vmin;
+    left: 16vmin;
+}
+
+#blue-left{
+    background-color: rgb(11, 88, 144);
+    position: absolute;
+    width: 14vmin;
+    height: 16vmin;
+}
+
+#white-mid{
+    background-color: rgb(211, 207, 205);
+    position: absolute;
+    left: 16vmin;
+    width: 46vmin;
+    height: 16vmin;
+}
+
+#white-right{
+    background-color: rgb(211, 207, 205);
+    position: absolute;
+    left: 64vmin;
+    width: 6vmin;
+    height: 7vmin;
+    
+}
+
+#yellow-right{
+    background-color: rgb(224, 201, 102);
+    position: absolute;
+    top: 9vmin;
+    left: 64vmin;
+    width: 6vmin;
+    height: 7vmin;
+}

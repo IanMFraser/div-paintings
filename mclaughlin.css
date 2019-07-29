@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{ 
+    position: fixed;
+    top: 0;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    z-index: 1;
+}
+
+#frame{
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#canvas{
+    background-color: rgb(245, 244, 241);
+    position: relative;
+    width: 105vmin;
+    height: 75vmin;
+}
+
+#left-col{
+    width: 45vmin;
+    height: 80vmin;
+    position: absolute;
+}
+
+#right-col{
+    width: 45vmin;
+    height: 80vmin;
+    left: 60vmin;
+    position: absolute;
+}
+
+#left-band{
+    background-color: rgb(252, 226,72);
+    width: 15vmin;
+    height: 75vmin;
+    position: absolute;
+}
+
+#mid-band{
+    background-color: rgb(48, 45, 42);
+    width: 15vmin;
+    height: 75vmin;
+    left: 15vmin;
+    position: absolute;
+}
+
+#right-band{
+    background-color: rgb(182, 223, 232);
+    width: 15vmin;
+    height: 75vmin;
+    left: 30vmin;
+    position: absolute;
+}

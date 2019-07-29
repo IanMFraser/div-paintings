@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{ 
+    position: fixed;
+    top: 0;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    z-index: 1;
+}
+
+#frame{
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#canvas{
+    background-color: rgb(59, 59, 63);
+    width: 50vmin;
+    height: 90vmin;
+    position: relative;
+}
+
+#first-row{
+    background-color: rgb(66, 67, 72);
+    width: 50vmin;
+    height: 17vmin;
+    top: 20vmin;
+    position: absolute;
+}
+
+#second-row{
+    background-color: rgb(66, 67, 72);
+    width: 50vmin;
+    height: 17vmin;
+    top: 55vmin;
+    position: absolute;
+}
+
+#middle-square1{
+    background-color: rgb(55, 53, 57);
+    width: 16vmin;
+    height: 17vmin;
+    top: 20vmin;
+    left: 17vmin;
+    position: absolute;
+}
+#middle-square2{
+    background-color: rgb(55, 53, 57);
+    width: 16vmin;
+    height: 17vmin;
+    top: 55vmin;
+    left: 17vmin;
+    position: absolute;
+}

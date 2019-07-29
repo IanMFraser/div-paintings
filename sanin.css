@@ -1,0 +1,103 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{ 
+    position: fixed;
+    top: 0;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    z-index: 100;
+}
+
+#frame{
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+    width: 100vmin;
+}
+
+#canvas{
+    background-color: rgb(52, 67, 106);
+    position: relative;
+    width: 80vmin;
+    height: 70vmin;
+}
+
+#bar1{
+    background-color: rgb(32, 29, 46);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 20vmin;
+}
+
+#bar2{
+    background-color: rgb(29, 88, 85);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 30vmin;
+}
+
+#bar3{
+    background-color: rgb(247, 191, 91);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 40vmin;
+}
+
+#bar4{
+    background-color: rgb(32, 25, 40);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 50vmin;
+}
+
+
+#bar5{
+    background-color: rgb(251, 129, 65);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 60vmin;
+}
+
+#bar6{
+    background-color: rgb(121, 73, 57);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 70vmin;
+}
+
+#bar7{
+    background-color: rgb(25, 23, 32);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 80vmin;
+}
+
+#bar8{
+    background-color: rgb(22, 61, 56);
+    position: absolute;
+    width:10vmin;
+    height:70vmin;
+    left: 90vmin;
+}

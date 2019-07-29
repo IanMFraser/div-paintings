@@ -1,0 +1,132 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{ 
+    position: fixed;
+    top: 0;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    z-index: 1;
+}
+
+#frame{
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#canvas{
+    background-color: rgb(239, 238,236);
+    position: relative;
+    width: 79vmin;
+    height: 80vmin;
+}
+
+#top{
+    position: absolute;
+    width: 100vmin;
+    height: 25vmin;
+
+}
+
+#middle{
+    position: absolute;
+    width: 100vmin;
+    height: 25vmin;
+    top: 30vmin;
+}
+
+#bottom{
+    position: absolute;
+    width: 100vmin;
+    height: 25vmin;
+    top: 60vmin;
+}
+
+#square1{
+    background-color: rgb(44, 129, 98);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 1vmin;
+}
+
+#square2{
+    background-color: rgb(235, 214, 65);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 30vmin;
+}
+#square3{
+    background-color: rgb(70, 76, 125);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 60vmin;
+}
+#square4{
+    background-color: rgb(126, 160, 206);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 1vmin;
+}
+#square5{
+    background-color: rgb(45, 47, 46);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 30vmin;
+}
+#square6{
+    background-color: rgb(198, 58, 40);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 60vmin;
+}
+#square7{
+    background-color: rgb(206, 101, 43);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 1vmin;
+}
+#square8{
+    background-color: rgb(165, 191, 133);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 30vmin;
+}
+#square9{
+    background-color: rgb(101, 82, 126);
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    top: 1vmin;
+    left: 60vmin;
+}

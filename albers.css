@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#frame{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#canvas{
+    background-color: rgb(243, 125, 21);
+    width: 70vmin;
+    height: 70vmin;
+    position: relative;
+}
+
+#first{
+    background-color: rgb(237, 90, 31);
+    position: absolute;
+    width: 40vmin;
+    height: 40vmin;
+    left: 15vmin;
+    top: 20vmin;
+}
+
+#second{
+    background-color: rgb(231, 66, 29);
+    position: absolute;
+    width:27vmin;
+    height: 27vmin;
+    left: 6.5vmin;
+    top: 10vmin;
+}
